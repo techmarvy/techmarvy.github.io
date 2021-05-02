@@ -1,0 +1,15 @@
+<div class='links'>
+    <h3>Posts</h3>
+    
+    <ul class="posts">
+    {% for post in site.posts %}
+      <li>
+        <span class="post-date">[{{ post.date | date: "%b %-d, %Y" }}]</span>
+        <p>
+            <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>            
+        </p>
+      </li>
+    {% endfor %}
+    </ul>
+
+</div>
