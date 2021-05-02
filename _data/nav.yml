@@ -1,12 +1,6 @@
 - name: Home
   path:
   section_id: home
-- name: Embedded
-  path: embedded/
-  section_id: embedded
-- name: Blog
-  path: blog/
-  section_id: blog
 - name: About
   path: about/
   section_id: about
