@@ -5,7 +5,7 @@ description: > # this means to ignore newlines until "baseurl:"
   Electronut Labs is a blog on Programming and Embedded Systems.
 
 #url:              http://localhost:4000
-url:              http://www.techmarvy.com
+url:              https://techmarvy.github.io/
 
 baseurl: "" # the subpath of your site, e.g. /blog/
 # url: "http://yourdomain.com" # the base hostname & protocol for your site
